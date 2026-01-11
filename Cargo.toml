@@ -1,0 +1,18 @@
+[package]
+authors = ["Goldot Team"]
+categories = ["rust-patterns", "development-tools::procedural-macro-helpers"]
+description = "Define grouped enums with ergonomic pattern matching"
+edition = "2021"
+keywords = ["enum", "group", "macro", "pattern-matching"]
+license = "MIT"
+name = "enum-group-macros"
+readme = "README.md"
+repository = "https://github.com/xuchaoqian/enum-group-macros.git"
+version = "0.1.0"
+
+[dependencies]
+enum-group-macros-impl = {version = "0.1.0", path = "impl"}
+
+[dev-dependencies]
+serde = {version = "1.0", features = ["derive"]}
+serde_json = "1.0"

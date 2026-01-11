@@ -8,7 +8,7 @@ Add this to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-enum-group-macros = { git = "https://github.com/xuchaoqian/enum-group-macros.git" }
+enum-group-macros = "0.1.0"
 ```
 
 ## License
